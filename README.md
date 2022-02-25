@@ -9,6 +9,9 @@ I have dig up the internet to find the best items to add in each and every categ
 
 > Note: The project is being hosted by Heroku with free dyno; thus, there will be potential delay the first time you make a request (app went to sleep after dyno does not receive traffic in 1 hour). Please be patient, and the call will be faster next time.
 
+## Demo
+    https://bucket-list-public-api.herokuapp.com
+
 ## API Endpoint
     https://bucket-list-public-api.herokuapp.com/api
 
