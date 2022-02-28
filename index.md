@@ -22,9 +22,9 @@ I have dig up the internet to find the best items to add in each and every categ
 | `/` | - | Returns a random suggestion from place,adventure. |
 | `/suggest-place` | - | Returns a random suggestion from places. |
 | `/suggest-adventure` | - | Returns a random suggestion from adventures |
-| `/all` | `page`=_page-number_ `limit`=_number-of-suggestions-to-return_ | Returns all places,adventures. |
-| `/all-places` | `page`=_page-number_ `limit`=_number-of-suggestions-to-return_ | Returns all places. |
-| `/all-adventures` | `page`=_page-number_ `limit`=_number-of-suggestions-to-return_ | Returns all adventures. |
+| `/all` | `page`=_page-number_ <br /> `limit`=_number-of-suggestions-to-return_ | Returns all places,adventures. |
+| `/all-places` | `page`=_page-number_ <br /> `limit`=_number-of-suggestions-to-return_ | Returns all places. |
+| `/all-adventures` | `page`=_page-number_ <br />`limit`=_number-of-suggestions-to-return_ | Returns all adventures. |
 
 ## Example Responses:
 
