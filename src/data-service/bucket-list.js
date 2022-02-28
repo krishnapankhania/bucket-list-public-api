@@ -1,11 +1,11 @@
 const { default: axios } = require("axios");
 const placesData = require("../data/places.json");
-const adventureData = require("../data/places.json");
+const adventureData = require("../data/adventure.json");
 const CONSTANTS = require("../constants");
 class BucketList {
   constructor() {
     this.places = placesData.map((p) => {
-      p.category = "places";
+      p.category = "place";
       return p;
     });
     this.adventures = adventureData.map((a) => {
@@ -14,17 +14,12 @@ class BucketList {
     });
   }
   shuffle(array) {
-    let currentIndex = array.length,
-      randomIndex;
-    while (currentIndex != 0) {
-      randomIndex = Math.floor(Math.random() * currentIndex);
-      currentIndex--;
-      [array[currentIndex], array[randomIndex]] = [
-        array[randomIndex],
-        array[currentIndex],
-      ];
+    for (var i = array.length - 1; i > 0; i--) {
+      var j = Math.floor(Math.random() * (i + 1));
+      var temp = array[i];
+      array[i] = array[j];
+      array[j] = temp;
     }
-
     return array;
   }
 
