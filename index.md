@@ -16,8 +16,9 @@ I have dig up the internet to find the best items to add in each and every categ
     https://bucket-list-public-api.herokuapp.com/api
 
 ## Endpoints
+
 | **Endpoint** | **Parameters** | **Description** |
-|---|---|---|
+|-------|--------|---------|
 | `/` | - | Returns a random suggestion from place,adventure. |
 | `/suggest-place` | - | Returns a random suggestion from places. |
 | `/suggest-adventure` | - | Returns a random suggestion from adventures |
