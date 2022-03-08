@@ -1,9 +1,9 @@
 # Bucket List API
 
-This API is developed to suggest bucket list places, adventures, and many more things(Upcoming) that you can add to your bucket list!
+This API is developed to suggest bucket list places, adventures,foods and many more things(Upcoming) that you can add to your bucket list!
 
 ## Inspiration 
-I have dig up the internet to find the best items to add in each and every category.I have added all credits to websites and photo source, most of the photos are from [Unsplash](https://unsplash.com/)
+I have dug up the internet to find the best items to add in each and every category.I have added all credits to websites and photo sources, most of the photos are from [Unsplash](https://unsplash.com/) and some blogs. Please collaborate with me if you have any new category in mind or want to add new features in this api.
 
 ## Usage:
 
@@ -21,9 +21,11 @@ I have dig up the internet to find the best items to add in each and every categ
 | `/` | - | Returns a random suggestion from place,adventure. |
 | `/suggest-place` | - | Returns a random suggestion from places. |
 | `/suggest-adventure` | - | Returns a random suggestion from adventures |
+| `/suggest-food` | - | Returns a random suggestion from foods |
 | `/all` | `page`=_page-number_ `limit`=_number-of-suggestions-to-return_ | Returns all places,adventures. |
 | `/all-places` | `page`=_page-number_ `limit`=_number-of-suggestions-to-return_ | Returns all places. |
 | `/all-adventures` | `page`=_page-number_ `limit`=_number-of-suggestions-to-return_ | Returns all adventures. |
+| `/all-foods` | `page`=_page-number_ `limit`=_number-of-suggestions-to-return_ | Returns all foods. |
 
 ## Example Responses:
 
